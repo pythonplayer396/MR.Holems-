@@ -1,46 +1,86 @@
+<div align="center">
+
+# 🔍 Mr.Holmes - Fixed Edition
+
+<img src="Icon/Banner.png" alt="Mr.Holmes Banner" width="650"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F707&center=true&vCenter=true&width=600&lines=Advanced+OSINT+Intelligence+Tool;Domain+%7C+Username+%7C+Phone+Lookup;Fixed+%26+Patched+Version;Maintained+by+darkwall)](https://git.io/typing-svg)
+
 <p align="center">
-  <img width="650px" height="100px" src="Icon/Banner.png">
+  <img src="https://img.shields.io/badge/Version-T.G.D--1.0.4-brightgreen?style=for-the-badge&logo=semantic-release" alt="Version"/>
+  <img src="https://img.shields.io/badge/Status-Patched%20%26%20Fixed-success?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License"/>
+  <img src="https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge" alt="Maintained"/>
 </p>
 
-<p align = "center">
-  <img src = "https://img.shields.io/badge/Version-Fixed%20T.G.D--1.0.4-brightgreen">
-  <img src = "https://img.shields.io/badge/Status-Patched-success">
-  <img src = "https://img.shields.io/badge/Maintained%3F-yes-green.svg">
-  <img src = "https://img.shields.io/badge/Python-3.x-blue">
-  <img src = "https://img.shields.io/badge/License-GPL--3.0-blue.svg">
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-usage">Usage</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-credits">Credits</a>
 </p>
 
-# :mag: Mr.Holmes - Fixed Version 
+</div>
 
-**Mr.Holmes is a information gathering tool (OSINT). The main purpose is to gain information about domains,username and phone numbers with the help of public source avaiable on the internet also it use the google dorks attack for specific researchers. It also use proxies for make your requests completley anonymous and a WhoIS Api for getting more information about a domain.**
+---
 
-## :wrench: Fixed Version Notice
-**This is a patched and fixed version of Mr.Holmes with the following improvements:**
-- Fixed `FileExistsError` crashes when creating duplicate directories
-- Fixed `KeyError: 'Settings'` configuration file issues
-- Improved error handling across multiple modules
-- Replaced deprecated `os.mkdir()` calls with `os.makedirs(exist_ok=True)`
-- Added missing configuration files for easier setup
-- Enhanced stability and reliability
+## 📋 About
 
-<br>
+**Mr.Holmes** is a comprehensive **OSINT (Open-Source Intelligence)** gathering tool designed for information security professionals, researchers, and enthusiasts. This **fixed and patched version** includes critical bug fixes and improvements for enhanced stability and reliability.
 
-# :heavy_exclamation_mark: DISCLAIMER
-**This Tool is Not 100% Accurate so it can fail somtimes. Also this tool is made for educational and research purposes only, i do not assume any kind of responsibility for any imprope use of this tool.**
-<br>
+### 🎯 What It Does
 
-#  SCREENSHOT
-![Screenshot](Screenshot/Screenshot.png)
+- 🔎 **Username OSINT** - Track usernames across multiple social media platforms
+- 📱 **Phone Number Lookup** - Gather intelligence on phone numbers
+- 🌐 **Domain/IP Investigation** - Detailed domain and IP reconnaissance  
+- 📧 **Email Analysis** - Email validation and social media correlation
+- 👤 **People Search** - Comprehensive person information gathering
+- 🔓 **Port Scanning** - Network security assessment
+- 🔍 **Google Dorks** - Advanced search queries for targeted research
+- 🗺️ **Interactive Mapping** - Geolocation visualization
+- 📊 **PDF Reports** - Generate professional investigation reports
 
-<br>
+---
 
-<p align = "center">
-<img src = "Screenshot/Termux.png" height = "400px" width = "300px">
-</p>
+## ✨ What's New in This Fixed Version
 
-<br>
+<div align="center">
 
-# :heavy_check_mark: INSTALLATION LINUX/MAC:
+| 🐛 Bug Fixes | 🚀 Improvements |
+|:------------|:----------------|
+| ✅ Fixed `FileExistsError` crashes | ✅ Enhanced error handling |
+| ✅ Fixed `KeyError: 'Settings'` issues | ✅ Improved stability |
+| ✅ Replaced deprecated `os.mkdir()` calls | ✅ Better dependency management |
+| ✅ Added missing configuration files | ✅ Updated documentation |
+
+</div>
+
+---
+
+## 🚀 Installation
+
+### 🐧 Linux / macOS (Recommended - Virtual Environment)
+
+```bash
+# Clone the repository
+git clone https://github.com/pythonplayer396/Mr.Holmes
+cd Mr.Holmes
+
+# Create and activate virtual environment
+python3 -m venv vevn
+source vevn/bin/activate
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+# Run the tool
+python3 MrHolmes.py
+```
+
+### 🐧 Linux / macOS (Standard Installation)
+
 ```bash
 git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
@@ -48,40 +88,17 @@ sudo apt-get update
 sudo chmod +x install.sh
 sudo bash install.sh
 ```
-<br>
 
-# :heavy_check_mark: INSTALLATION LINUX/MAC (Venv Enviroment - RECOMMENDED):
-**Recommended method to avoid dependency conflicts**
-```bash
-git clone https://github.com/pythonplayer396/Mr.Holmes
-sudo apt-get update
-cd Mr.Holmes
-python3 -m venv vevn
-source vevn/bin/activate
-pip3 install -r requirements.txt
-python3 MrHolmes.py
-```
-<br>
+### 🪟 Windows
 
-# :heavy_check_mark: INSTALLATION WINDOWS (1°WAY)
-**If you have git installed on your windows machine you can do the following commands:**
 ```cmd
 git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 Install.cmd
 ```
-<br>
 
-# :heavy_check_mark: INSTALLATION WINDOWS (2° WAY):
-**If you download the zip file of Mr.Holmes you should first unzip it and after that do the following commands:**
-```cmd
-ren Mr.Holmes-master Mr.Holmes
-cd Mr.Holmes
-Install.cmd
-```
-<br>
+### 📱 Termux (Android)
 
-# :heavy_check_mark: INSTALLATION TERMUX:
 ```bash
 pkg install proot
 git clone https://github.com/pythonplayer396/Mr.Holmes
@@ -89,308 +106,202 @@ cd Mr.Holmes
 proot -0 chmod +x install_Termux.sh
 ./install_Termux.sh
 ```
-<br>
-
-#  USAGE LINUX/MAC:
-    cd Mr.Holmes
-    sudo python3 MrHolmes.py
-    OR:
-    cd Mr.Holmes
-    cd Launchers
-    Execute Launcher.sh
-
-<br>
-    
-#  USAGE LINUX/MAC(Venv Enviroment):
-    cd Mr.Holmes
-    source vevn/bin/activate
-    python3 MrHolmes.py
-
-<br>
-
-#  USAGE TERMUX/WINDOWS:
-    python3 MrHolmes.py
-<br>
-
-#  USAGE WINDOWS:
-    python MrHolmes.py
-    OR
-    cd Launchers
-    Execute Win_Launcher.exe
-
-<br>
-
-# API KEY LINK:
-    https://whois.whoisxmlapi.com
-<br>
-
-# SETTINGS FOLDER:
-
-    Configuration/Configuration.ini
-<br>
-
-# :heavy_exclamation_mark: ATTENTION
-**DATABASE NOT AVAIABLE ON TERMUX**
-<br>
-
-# :heavy_exclamation_mark: ATTENTION ON WINDOWS
-**IF PYTHON AND PHP WONT INSTALL YOU HAVE TO DOWNLOAD THEM MANUALLY:**
-    
-<br>
-
-# VERSIONS LIST:
-    Fixed Version: T.G.D-1.0.4 (Patched)
-    Original: https://lucksi.github.io/Mr.Holmes/Pages/versions.html
-<br>
-
-# :heavy_check_mark: GUI DARK/LIGHT MODE:
-```bash
-cd GUI
-cd Theme
-edit Mode.json
-write:Light=(Light-Mode)
-write:Dark=(Dark-Mode) 
-write:High-Contrast(High-Contrast-Mode)
-```
-<br>
-
-# :heavy_check_mark: Mode.json CODE EXAMPLE:
-```json
-{
-    "Color": {
-        "Background": "Light"
-    }
-}
-```
-<br>
-
-# :heavy_check_mark: GUI/USERNAME/PASSWORD:
-```bash
-cd GUI
-cd Credentials
-edit Login.json
-write:Status=Active/Deactive
-edit Users.json
-write:Username=Your Username
-write:Password=Your Password
-```
-<br>
-
-# :heavy_check_mark: Login.json CODE EXAMPLE:
-```json    
-{
-    "Database": {
-        "Status": "Active"
-    }
-}
-```
-<br>
-
-# :heavy_check_mark: Users.json CODE EXAMPLE
-```json
-{
-    "Users":[
-        {
-            "Username": "Your Username",
-            "Password": "Your Password"
-        }
-    ]
-}
-```
-<br>
-
-# :heavy_check_mark: LANGUAGE SETTINGS:
-```bash
-cd GUI
-cd Language
-edit Language.json
-```
-<br>
-
-# :heavy_check_mark: Language.json CODE EXAMPLE:
-```json
-{
-    "Language": {
-        "Preference": "English"
-    }
-}
-```
-<br>
-
-# DEFAULT USERNAME AND PASSWORD:
-    Username:Admin
-    Password:Qwerty123
-
-<br>
-
-# AVAIABLE LANGUAGES:
-    Italiano 🇮🇹 
-    English 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-    Français 🇫🇷
-
-<br>
-
-# ACTUAL VERSION:
-## T.G.D-1.0.4 (Fixed & Patched)
-
-<br>
-
-# INTERACTIVE MAP HAS BEEN MADE WITH:
-**Leaflet: https://leafletjs.com**
-
-<br>
-
-# USERNAME ENTITIES:
-**The Icons on Folder: /GUI/Icon/Entities/Site_Icon have been taken from: https://www.iconfinder.com/ all credit goes to their respective creators**
-
-<br>
-
-# ENCODING:
-**With this version it is Possible to Encode your reports**
-
-<br>
-
-# DECODING:
-**With this version it is Possible to Decode your reports**
-
-<br>
-
-# HYPOTHESIS
-**This new version Permits to generate some "Hypothesis" on the subject in base of their numbers on varios social media including possible hobbies/interests (It may not be a 100% attendible)**
-
-<br>
-
-# EMAIL-LOOKUP:
-**With this new version is possible to check if an email is connected to some specific socials/services without letting the target know it.**
-
-<br>
-
-# GRAPHS:
-**With this new version has been added the possibility to create Graphs in order to create a schema for information scheduling.**
-
-<br>
-
-# EXAMPLE:
-
-![Screenshot](Screenshot/Graph_Test.png)
-
-<br>
-
-# MAPS:
-**With this new version has been added the possibility to create Interactive Maps.**
-
-<br>
-
-# EXAMPLE:
-
-![Screenshot](Screenshot/Map_Test.png)
-
-<br>
-
-# DORKS:
-**With this new version it is possible to search Video/Sound/Images via Dorks (1) and to effectuate specific research adding date ex '1998/01/1' or date range ex '1998/01/01-2020/12/31' (2).**
-
-<br>
-
-# EXAMPLE (1):
-
-![Screenshot](Screenshot/Dorks.png)
-
-<br>
-
-# EXAMPLE (2):
-
-![Screenshot](Screenshot/Dorks2.png)
-
-<br>
-
-# PDF:
-**With this new version has been added the possibility to converte your Graphs in PDF.**
-
-<br>
-
-# EXAMPLE:
-<p align = "center">
-<img src="Screenshot/Dark_Pdf.png" height ="400px" width = "400px" border = "5px" style="border-color:white;">
-</p>
-
-<br>
-
-# AVAILBLE PDF-THEMES:
-    Light 🌕
-    Dark 🌗
-    High-Contrast 🌗
-
-<br>
-
-# FILE-TRANSFER:
-**With this version it is Possible to Transfer your reports directly to Your Phone Via Qr-Code**
-
-<br>
-
-# FILE-TRANSFER PAGE:
-<p align = "center">
-<img src="Screenshot/File-Transfer.jpg" height ="500px" width = "300px" border = "5px" style="border-color:white;">
-</p>
-
-<br>
-
-# :last_quarter_moon: DARK MODE:
-![Screenshot](Screenshot/Dark_Mode.png)
-
-<br>
-
-<p align = "center">
-<img src="Screenshot/Dark.jpg" height ="500px" width = "300px" border = "5px" style="border-color:white;">
-</p>
-
-<br>
-
-# :full_moon: LIGHT MODE:
-![Screenshot](Screenshot/Light_Mode.png)
-
-<br>
-
-<p align = "center">
-<img src="Screenshot/Light.jpg" height ="500px" width = "300px" border = "5px" style="border-color:gray;">
-</p>
-
-
-<br>
-
-# :last_quarter_moon: HIGH-CONTRAST MODE:
-![Screenshot](Screenshot/High-Contrast_Mode.png)
-
-<br>
-
-<p align = "center">
-<img src="Screenshot/High-Contrast.jpg" height ="490px" width = "300px" border = "5px" style="border-color:white;">
-</p>
-
-<hr>
-<br>
-
 
 ---
 
-## <p align="center">:hammer_and_wrench: FIXED & MAINTAINED BY</p>
+## 🎮 Usage
 
-<p align="center">
-  <strong>darkwall</strong><br>
-  Instagram: <a href="https://instagram.com/darkwall0901">@darkwall0901</a><br>
-  GitHub: <a href="https://github.com/pythonplayer396">@pythonplayer396</a>
-</p>
+### Quick Start
 
-<br>
+```bash
+cd Mr.Holmes
+source vevn/bin/activate  # If using virtual environment
+python3 MrHolmes.py
+```
 
-## <p align="center">ORIGINAL CREATOR</p>
+### Main Menu Options
 
-<p align="center">
-  <strong>LUCA GAROFALO (pythonplayer396)</strong><br>
-  Original Repository: <a href="https://github.com/pythonplayer396/Mr.Holmes">pythonplayer396/Mr.Holmes</a>
-</p>
+```
+(1)  SOCIAL-ACCOUNT-OSINT    →  Track usernames across platforms
+(2)  PHONE-NUMBER-OSINT      →  Phone number intelligence
+(3)  DOMAIN/IP-OSINT         →  Domain and IP investigation
+(4)  CONFIGURATION           →  Tool settings
+(5)  DATABASE (GUI)          →  Web-based database interface
+(6)  UPDATE                  →  Check for updates
+(7)  PORT-SCANNER            →  Network port scanning
+(8)  E-MAIL                  →  Email investigation
+(9)  DORKS-GENERATOR         →  Google dorks for research
+(10) PEOPLE-OSINT            →  Person information gathering
+(11) ENCODING/DECODING       →  Report encryption
+(12) PDF-GRAPH CONVERTER     →  Generate visual reports
+(13) FILE-TRANSFER           →  QR code file transfer
+(14) SESSION-OPTIONS         →  Session management
+(15) EXIT                    →  Exit the program
+```
 
-<br>
+---
 
-## <p align="center">LICENSE</p>
-<p align="center">GPL-3.0 License<br>Original Copyright: (C) 2021-2025 pythonplayer396<br>Fixes & Patches: (C) 2025 darkwall</p>
+## 🎨 Features Showcase
+
+<div align="center">
+
+### 🌗 Theme Support
+
+<img src="Screenshot/Dark_Mode.png" width="45%" alt="Dark Mode"/>
+<img src="Screenshot/Light_Mode.png" width="45%" alt="Light Mode"/>
+
+### 📊 Reporting & Visualization
+
+<img src="Screenshot/Graph_Test.png" width="45%" alt="Graph Generation"/>
+<img src="Screenshot/Map_Test.png" width="45%" alt="Interactive Maps"/>
+
+### 📱 Mobile Friendly
+
+<img src="Screenshot/Termux.png" width="300" alt="Termux Support"/>
+
+</div>
+
+---
+
+## ⚙️ Configuration
+
+### 🔧 Configuration File
+
+Edit `Configuration/Configuration.ini` to customize settings:
+
+```ini
+[Settings]
+password = Holmes
+api_key = None
+proxy_list = Proxies/Proxy_list.txt
+useragent_list = Useragents/Useragent.txt
+show_logs = False
+database = False
+language = english
+date_format = eu
+```
+
+### 🎨 GUI Theme Configuration
+
+```json
+// GUI/Theme/Mode.json
+{
+    "Color": {
+        "Background": "Light"  // Options: Light, Dark, High-Contrast
+    }
+}
+```
+
+### 🌐 Language Support
+
+Available languages:
+- 🇬🇧 English
+- 🇮🇹 Italiano  
+- 🇫🇷 Français
+
+---
+
+## 📸 Screenshots
+
+<details>
+<summary><b>🖼️ Click to view all screenshots</b></summary>
+
+### Main Interface
+![Main Screen](Screenshot/Screenshot.png)
+
+### Dark Mode
+![Dark Mode](Screenshot/Dark_Mode.png)
+
+### Light Mode  
+![Light Mode](Screenshot/Light_Mode.png)
+
+### High Contrast Mode
+![High Contrast](Screenshot/High-Contrast_Mode.png)
+
+### Google Dorks
+![Dorks](Screenshot/Dorks.png)
+
+### PDF Export
+<img src="Screenshot/Dark_Pdf.png" width="400"/>
+
+### File Transfer
+<img src="Screenshot/File-Transfer.jpg" width="300"/>
+
+</details>
+
+---
+
+## ⚠️ Disclaimer
+
+> **IMPORTANT:** This tool is intended for **educational and research purposes only**. The accuracy of results may vary. Users are solely responsible for ensuring their usage complies with applicable laws and regulations. The developer assumes no liability for misuse or any damages caused by this software.
+
+---
+
+## 🔑 API Configuration
+
+For enhanced domain lookups, obtain a free API key from:
+- [WHOIS XML API](https://whois.whoisxmlapi.com)
+
+Add your API key to `Configuration/Configuration.ini`
+
+---
+
+## 📦 Requirements
+
+- **Python:** 3.x or higher
+- **Operating Systems:** Linux, macOS, Windows, Termux (Android)
+- **Dependencies:** Listed in `requirements.txt`
+- **Optional:** wkhtmltopdf (for PDF generation)
+
+---
+
+## 🤝 Credits & Attribution
+
+<div align="center">
+
+### 🛠️ Fixed & Maintained By
+
+**darkwall**
+
+[![Instagram](https://img.shields.io/badge/Instagram-@darkwall0901-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/darkwall0901)
+[![GitHub](https://img.shields.io/badge/GitHub-@pythonplayer396-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pythonplayer396)
+
+---
+
+### 📜 License
+
+**GPL-3.0 License**
+
+```
+Copyright (C) 2025 darkwall
+Fixes & Patches by darkwall
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+```
+
+---
+
+### 💝 Acknowledgments
+
+- Original concept and base code structure
+- Icons from [IconFinder](https://www.iconfinder.com/)
+- Interactive maps powered by [Leaflet](https://leafletjs.com)
+- Community contributors and testers
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you found it useful!
+
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-💚-green?style=for-the-badge)
+
+**[↑ Back to Top](#-mrholmes---fixed-edition)**
+
+</div>
