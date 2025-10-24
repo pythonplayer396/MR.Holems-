@@ -3,13 +3,13 @@
 </p>
 
 <p align = "center">
-  <img src = "https://img.shields.io/github/stars/Lucksi/Mr.Holmes">
-  <img src = "https://img.shields.io/github/forks/Lucksi/Mr.Holmes">
+  <img src = "https://img.shields.io/github/stars/pythonplayer396/Mr.Holmes">
+  <img src = "https://img.shields.io/github/forks/pythonplayer396/Mr.Holmes">
   <img src = "https://img.shields.io/badge/Maintained%3F-yes-green.svg">
-  <img src = "https://img.shields.io/github/license/Lucksi/Mr.Holmes">
-  <img src = "https://img.shields.io/github/repo-size/Lucksi/Mr.Holmes">
-  <img src= "https://img.shields.io/github/languages/count/Lucksi/Mr.Holmes">
-  <img src = "https://visitor-badge.laobi.icu/badge?page_id=Lucksi.Mr.Holmes">
+  <img src = "https://img.shields.io/github/license/pythonplayer396/Mr.Holmes">
+  <img src = "https://img.shields.io/github/repo-size/pythonplayer396/Mr.Holmes">
+  <img src= "https://img.shields.io/github/languages/count/pythonplayer396/Mr.Holmes">
+  <img src = "https://visitor-badge.laobi.icu/badge?page_id=pythonplayer396.Mr.Holmes">
 </p>
 
 # :mag: Mr.Holmes 
@@ -34,7 +34,7 @@
 
 # :heavy_check_mark: INSTALLAZIONE LINUX/MAC:
 ```bash
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 sudo apt-get update
 sudo chmod +x install.sh
@@ -45,7 +45,7 @@ sudo bash install.sh
 # :heavy_check_mark: INSTALLAZIONE WINDOWS (1°MODO):
 **Se hai installato sulla tua macchina windows git puoi eseguire i seguenti comandi:**
 ```cmd
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 Install.cmd
 ```
@@ -63,7 +63,7 @@ Install.cmd
 # :heavy_check_mark: INSTALLAZIONE TERMUX:
 ```bash
 pkg install proot
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 proot -0 chmod +x install_Termux.sh
 ./install_Termux.sh
@@ -344,13 +344,13 @@ edit Language.json
 ## <p align = center> STARGAZERS OVER TIME 
 
 
-[![Stargazers over time](https://starchart.cc/Lucksi/Mr.Holmes.svg)](https://starchart.cc/Lucksi/Mr.Holmes)
+[![Stargazers over time](https://starchart.cc/pythonplayer396/Mr.Holmes.svg)](https://starchart.cc/pythonplayer396/Mr.Holmes)
 
 <br>
 
 ## <p align= center>CREATO CON :heart: DA LUCKSI IN :it:</p>
 
-## <p align = center>CREATORE ORIGINALE: <a href = "https://github.com/Lucksi">LUCA GAROFALO (Lucksi)</a></p>
+## <p align = center>CREATORE ORIGINALE: <a href = "https://github.com/pythonplayer396">LUCA GAROFALO (pythonplayer396)</a></p>
 
 
-## <p align = center>LICENZA: GPL-3.0 License <br>COPYRIGHT: (C) 2021-2024 Lucksi
+## <p align = center>LICENZA: GPL-3.0 License <br>COPYRIGHT: (C) 2021-2024 pythonplayer396

@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2024 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -103,11 +103,11 @@ class Downloader:
                                  Language.Translation.Translate_Language(LangFile, "Username", "Instagram", "FoldFound") + Font.Color.GREEN + "\n\n[#MR.HOLMES#]" + Font.Color.WHITE + "-->"))
                 if keep == 1:
                     shutil.rmtree(folder)
-                    os.mkdir(folder)
+                    os.makedirs(folder, exist_ok=True)
                 else:
                     pass
             else:
-                os.mkdir(folder)
+                os.makedirs(folder, exist_ok=True)
             details = int(input(Font.Color.BLUE + "\n[?]" + Font.Color.WHITE +
                                 Language.Translation.Translate_Language(LangFile, "Username", "Default", "Details") + Font.Color.GREEN + "[#MR.HOLMES#]" + Font.Color.WHITE + "-->"))
             openurl = requests.get(
@@ -175,7 +175,7 @@ class Downloader:
                             TempTag = []
                             TempHash = []
                             TempLink = []
-                            os.mkdir(data_fold)
+                            os.makedirs(data_fold, exist_ok=True)
                             filename = data_fold + \
                                 "/{}.txt".format(arr_name[j-1])
                             print(Font.Color.GREEN + "\n[+]" + Font.Color.WHITE +
@@ -442,7 +442,7 @@ class Downloader:
                 Opt, name2)
             if os.path.isdir(folder):
                 shutil.rmtree(folder)
-            os.mkdir(folder)
+            os.makedirs(folder, exist_ok=True)
             medias = int(input(Font.Color.BLUE + "\n[?]" + Font.Color.WHITE + Language.Translation.Translate_Language(LangFile,"Username","Twitter","MediaOnly") + Font.Color.GREEN + "\n\n[#MR.HOLMES#]" + Font.Color.WHITE + "-->"))
             if medias == 1:
                 url = url + "/media"
@@ -614,7 +614,7 @@ class Downloader:
                     print(Font.Color.YELLOW +
                           "[v]" + Font.Color.WHITE + "LINKS:{}".format(Font.Color.WHITE + "[" + Font.Color.GREEN + ", ".join(TempLinks) + Font.Color.WHITE + "]"))
                     data_fold = folder + "/" + "Pic_{}".format(str(i))
-                    os.mkdir(data_fold)
+                    os.makedirs(data_fold, exist_ok=True)
                     filename = data_fold + \
                         "/Post_{}_details.txt".format(str(i))
                     f = open(filename, "w", encoding="utf-8")
@@ -744,11 +744,11 @@ class Downloader:
                                  Language.Translation.Translate_Language(LangFile, "Username", "TikTok", "FoldFound") + Font.Color.GREEN + "\n\n[#MR.HOLMES#]" + Font.Color.WHITE + "-->"))
                 if keep == 1:
                     shutil.rmtree(folder)
-                    os.mkdir(folder)
+                    os.makedirs(folder, exist_ok=True)
                 else:
                     pass
             else:
-                os.mkdir(folder)
+                os.makedirs(folder, exist_ok=True)
             i = 1
             TaggedUser = []
             TaggedHashtag = []
@@ -781,7 +781,7 @@ class Downloader:
                     else:
                         print(Font.Color.BLUE + "[I]" + Font.Color.WHITE + Language.Translation.Translate_Language(
                             LangFile, "Username", "Default", "VideoCheckFalse"))
-                        os.mkdir(foldername)
+                        os.makedirs(foldername, exist_ok=True)
                         report = foldername + "/" + name.replace("/", ".txt")
                         reportImage = foldername + "/" + \
                             name.replace("/", ".jpg")

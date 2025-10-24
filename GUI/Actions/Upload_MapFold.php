@@ -1,7 +1,7 @@
 <?php
-    /*ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-    AUTHOR: Luca Garofalo (Lucksi)
-    Copyright (C) 2023 Lucksi <lukege287@gmail.com>
+    /*ORIGINAL CREATOR: darkwall
+    AUTHOR: darkwall
+    Copyright (C) 2025 darkwall
     License: GNU General Public License v3.0*/
 
     $filename = "../Maps/Temp.txt";

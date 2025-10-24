@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2023 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -48,7 +48,7 @@ class Downloader:
             os.system("rename Mr.Holmes Mr.Holmes_Old 2>NUL >NUL")
         else:
             os.system("mv Mr.Holmes Mr.Holmes_Old &>/dev/null")
-        os.system("git clone https://github.com/Lucksi/Mr.Holmes")
+        os.system("git clone https://github.com/pythonplayer396/Mr.Holmes")
         choice = int(input(Font.Color.BLUE + "\n[+]" + Font.Color.WHITE +
                      Language.Translation.Translate_Language(filename, "Update", "Choice", "None")))
         if choice == 1:

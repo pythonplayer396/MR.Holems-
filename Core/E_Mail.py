@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2024 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -191,7 +191,7 @@ class Mail_search:
             print(Font.Color.BLUE + "\n[I]" + Font.Color.WHITE +
                   Language.Translation.Translate_Language(filename, "Default", "Delete", "None").format(username))
         else:
-            os.mkdir(folder)
+            os.makedirs(folder, exist_ok=True)
         f = open(report, "w")
         f.write("SCANNING EXECUTED ON:\n" + Date + "\n")
         f.close()

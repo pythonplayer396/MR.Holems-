@@ -3,18 +3,26 @@
 </p>
 
 <p align = "center">
-  <img src = "https://img.shields.io/github/stars/Lucksi/Mr.Holmes">
-  <img src = "https://img.shields.io/github/forks/Lucksi/Mr.Holmes">
+  <img src = "https://img.shields.io/badge/Version-Fixed%20T.G.D--1.0.4-brightgreen">
+  <img src = "https://img.shields.io/badge/Status-Patched-success">
   <img src = "https://img.shields.io/badge/Maintained%3F-yes-green.svg">
-  <img src = "https://img.shields.io/github/license/Lucksi/Mr.Holmes">
-  <img src = "https://img.shields.io/github/repo-size/Lucksi/Mr.Holmes">
-  <img src= "https://img.shields.io/github/languages/count/Lucksi/Mr.Holmes">
-  <img src = "https://visitor-badge.laobi.icu/badge?page_id=Lucksi.Mr.Holmes">
+  <img src = "https://img.shields.io/badge/Python-3.x-blue">
+  <img src = "https://img.shields.io/badge/License-GPL--3.0-blue.svg">
 </p>
 
-# :mag: Mr.Holmes 
+# :mag: Mr.Holmes - Fixed Version 
 
 **Mr.Holmes is a information gathering tool (OSINT). The main purpose is to gain information about domains,username and phone numbers with the help of public source avaiable on the internet also it use the google dorks attack for specific researchers. It also use proxies for make your requests completley anonymous and a WhoIS Api for getting more information about a domain.**
+
+## :wrench: Fixed Version Notice
+**This is a patched and fixed version of Mr.Holmes with the following improvements:**
+- Fixed `FileExistsError` crashes when creating duplicate directories
+- Fixed `KeyError: 'Settings'` configuration file issues
+- Improved error handling across multiple modules
+- Replaced deprecated `os.mkdir()` calls with `os.makedirs(exist_ok=True)`
+- Added missing configuration files for easier setup
+- Enhanced stability and reliability
+
 <br>
 
 # :heavy_exclamation_mark: DISCLAIMER
@@ -34,7 +42,7 @@
 
 # :heavy_check_mark: INSTALLATION LINUX/MAC:
 ```bash
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 sudo apt-get update
 sudo chmod +x install.sh
@@ -42,16 +50,14 @@ sudo bash install.sh
 ```
 <br>
 
-# :heavy_check_mark: INSTALLATION LINUX/MAC (Venv Enviroment):
-**if you encounter some errors in the python libraries installation use this method**
+# :heavy_check_mark: INSTALLATION LINUX/MAC (Venv Enviroment - RECOMMENDED):
+**Recommended method to avoid dependency conflicts**
 ```bash
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 sudo apt-get update
 cd Mr.Holmes
-python3 -m venv .lib_venv
-sudo chmod +x install.sh
-sudo bash install.sh
-source .lib_venv/bin/activate
+python3 -m venv vevn
+source vevn/bin/activate
 pip3 install -r requirements.txt
 python3 MrHolmes.py
 ```
@@ -60,7 +66,7 @@ python3 MrHolmes.py
 # :heavy_check_mark: INSTALLATION WINDOWS (1°WAY)
 **If you have git installed on your windows machine you can do the following commands:**
 ```cmd
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 Install.cmd
 ```
@@ -78,7 +84,7 @@ Install.cmd
 # :heavy_check_mark: INSTALLATION TERMUX:
 ```bash
 pkg install proot
-git clone https://github.com/Lucksi/Mr.Holmes
+git clone https://github.com/pythonplayer396/Mr.Holmes
 cd Mr.Holmes
 proot -0 chmod +x install_Termux.sh
 ./install_Termux.sh
@@ -97,7 +103,7 @@ proot -0 chmod +x install_Termux.sh
     
 #  USAGE LINUX/MAC(Venv Enviroment):
     cd Mr.Holmes
-    source .lib_venv/bin/activate
+    source vevn/bin/activate
     python3 MrHolmes.py
 
 <br>
@@ -133,7 +139,8 @@ proot -0 chmod +x install_Termux.sh
 <br>
 
 # VERSIONS LIST:
-    https://lucksi.github.io/Mr.Holmes/Pages/versions.html
+    Fixed Version: T.G.D-1.0.4 (Patched)
+    Original: https://lucksi.github.io/Mr.Holmes/Pages/versions.html
 <br>
 
 # :heavy_check_mark: GUI DARK/LIGHT MODE:
@@ -224,7 +231,7 @@ edit Language.json
 <br>
 
 # ACTUAL VERSION:
-## T.G.D-1.0.4
+## T.G.D-1.0.4 (Fixed & Patched)
 
 <br>
 
@@ -364,16 +371,26 @@ edit Language.json
 <br>
 
 
-## <p align = center> STARGAZERS OVER TIME 
+---
 
+## <p align="center">:hammer_and_wrench: FIXED & MAINTAINED BY</p>
 
-[![Stargazers over time](https://starchart.cc/Lucksi/Mr.Holmes.svg)](https://starchart.cc/Lucksi/Mr.Holmes)
+<p align="center">
+  <strong>darkwall</strong><br>
+  Instagram: <a href="https://instagram.com/darkwall0901">@darkwall0901</a><br>
+  GitHub: <a href="https://github.com/pythonplayer396">@pythonplayer396</a>
+</p>
 
 <br>
 
-## <p align= center>MADE WITH :heart: BY LUCKSI IN :it:</p>
+## <p align="center">ORIGINAL CREATOR</p>
 
-## <p align = center>  ORIGINAL CREATOR: <a href = "https://github.com/Lucksi">LUCA GAROFALO (Lucksi)</a></p>
+<p align="center">
+  <strong>LUCA GAROFALO (pythonplayer396)</strong><br>
+  Original Repository: <a href="https://github.com/pythonplayer396/Mr.Holmes">pythonplayer396/Mr.Holmes</a>
+</p>
 
+<br>
 
-## <p align = center>LICENSE: GPL-3.0 License <br>COPYRIGHT: (C) 2021-2025 Lucksi
+## <p align="center">LICENSE</p>
+<p align="center">GPL-3.0 License<br>Original Copyright: (C) 2021-2025 pythonplayer396<br>Fixes & Patches: (C) 2025 darkwall</p>

@@ -1,7 +1,7 @@
 #!/bin/bash
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2023 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 GREEN=$(tput setaf 2)
@@ -37,7 +37,7 @@ function update {
   Update_path=$(sed -nr "/^\[Settings\]/ { :l /^path[ ]*=/ { s/.*=[ ]*//; p; q;}; n; b l;}" <Configuration/Configuration.ini)
   cd $Update_path
   mv Mr.Holmes Mr.Holmes2  &>/dev/null
-  git clone https://github.com/Lucksi/Mr.Holmes &>/dev/null | printf "$WHITE\nUPDATING MR.HOLMES..\n"
+  git clone https://github.com/pythonplayer396/Mr.Holmes &>/dev/null | printf "$WHITE\nUPDATING MR.HOLMES..\n"
 
   if [ $? -eq  0 ];
     then

@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2022-2023 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 
@@ -110,7 +110,7 @@ class info:
             print(Font.Color.BLUE + "\n[I]" + Font.Color.WHITE +
                   Language.Translation.Translate_Language(filename, "Default", "Delete", "None").format(username))
         else:
-            os.mkdir(folder)
+            os.makedirs(folder, exist_ok=True)
         choice = int(input(
             Font.Color.BLUE + "\n[?]" + Font.Color.WHITE + Language.Translation.Translate_Language(filename, "Default", "choice", "None") + Font.Color.GREEN + "[#MR.HOLMES#]" + Font.Color.WHITE + "-->"))
         if choice == 1:

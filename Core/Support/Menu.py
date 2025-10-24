@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2023 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -65,11 +65,11 @@ class Main:
         print(Font.Color.WHITE + u)
         print(Font.Color.GREEN + text
               +
-              Font.Color.WHITE + "| A COMPLETE OSINT TOOL:)      " + Font.Color.BANNER + "CODED BY LUCKSI" + Font.Color.RESET + Font.Color.WHITE + "                      |\n|                                                                   |")
+              Font.Color.WHITE + "| A COMPLETE OSINT TOOL:)      " + Font.Color.BANNER + "FIXED BY DARKWALL" + Font.Color.RESET + Font.Color.WHITE + "                    |\n|                                                                   |")
         print(Font.Color.WHITE + "|[+]" + Font.Color.GREEN + "VERSION:" + version +      Font.Color.WHITE +  "\t\t\tCURRENT-DATE: {}".format(Font.Color.GREEN + Date1) + 
               Font.Color.WHITE + "    |")
         print(
-            Font.Color.YELLOW + "|Instagram:lucks_022 " + Font.Color.WHITE + "\t\t\tDATE-FORMAT: {}".format(Font.Color.GREEN + Country + Font.Color.YELLOW) + "          \n|Email:lukege287@gmail.com" + Font.Color.WHITE + "\t\tCLI-LANGUAGE: {}".format(Font.Color.GREEN + Lang + Font.Color.YELLOW) + "       |\n|GitHub:Lucksi                                                      |\n|Twitter:@Lucksi_22                                                 |\n|Linkedin:https://www.linkedin.com/in/Lucksi                        |")
+            Font.Color.YELLOW + "|Instagram: @darkwall0901 " + Font.Color.WHITE + "\t\t\tDATE-FORMAT: {}".format(Font.Color.GREEN + Country + Font.Color.YELLOW) + "          \n|GitHub: @pythonplayer396" + Font.Color.WHITE + "\t\tCLI-LANGUAGE: {}".format(Font.Color.GREEN + Lang + Font.Color.YELLOW) + "       |\n|                                                                   |")
         print(Font.Color.WHITE +
               "---------------------------------------------------------------------")
 
@@ -88,11 +88,11 @@ class Main:
         f.close()
         print(Font.Color.GREEN + text)
         print(Font.Color.WHITE + "A COMPLETE OSINT TOOL:)      " +
-              Font.Color.BANNER + "CODED BY LUCKSI" + Font.Color.RESET)
+              Font.Color.BANNER + "FIXED BY DARKWALL" + Font.Color.RESET)
         print(Font.Color.WHITE + "\n[+]" +
               Font.Color.GREEN + "VERSION:" + version)
         print(
-            Font.Color.YELLOW + "Instagram:lucks_022\nEMAIL:lukege287@gmail.com\nGIT-HUB:Lucksi\nTwitter:@Lucksi_22\nLinkedin:https://www.linkedin.com/in/Lucksi\n")
+            Font.Color.YELLOW + "Instagram: @darkwall0901\nGitHub: @pythonplayer396\n\n\n")
 
     @staticmethod
     def main(Mode):

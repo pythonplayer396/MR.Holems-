@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2024 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -240,7 +240,7 @@ class MrHolmes:
             print(Font.Color.BLUE + "\n[I]" + Font.Color.WHITE +
                   Language.Translation.Translate_Language(filename, "Default", "Delete", "None").format(username))
         else:
-            os.mkdir(folder)
+            os.makedirs(folder, exist_ok=True)
         now = datetime.now()
         dataformat = DateFormat.Get.Format()
         dt_string = now.strftime(dataformat)

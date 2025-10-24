@@ -1,6 +1,6 @@
-# ORIGINAL CREATOR: Luca Garofalo (Lucksi)
-# AUTHOR: Luca Garofalo (Lucksi)
-# Copyright (C) 2021-2023 Lucksi <lukege287@gmail.com>
+# ORIGINAL CREATOR: darkwall
+# AUTHOR: darkwall
+# Copyright (C) 2025 darkwall
 # License: GNU General Public License v3.0
 
 import os
@@ -250,7 +250,7 @@ class Phone_search:
             shutil.rmtree(folder)
             print(Font.Color.BLUE + "\n[I]" + Font.Color.WHITE +
                   Language.Translation.Translate_Language(filename, "Default", "Delete", "None").format(username))
-        os.mkdir(folder)
+        os.makedirs(folder, exist_ok=True)
         report = folder + username + ".txt"
         f = open(report, "w")
         f.write(Language.Translation.Translate_Language(
