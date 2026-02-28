@@ -261,7 +261,7 @@ Add your API key to `Configuration/Configuration.ini`
 
 ### 🛠️ Fixed & Maintained By
 
-**darkwall**
+**Ehetan**
 
 [![Instagram](https://img.shields.io/badge/Instagram-@darkwall0901-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/darkwall0901)
 [![GitHub](https://img.shields.io/badge/GitHub-@pythonplayer396-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pythonplayer396)
@@ -273,8 +273,8 @@ Add your API key to `Configuration/Configuration.ini`
 **GPL-3.0 License**
 
 ```
-Copyright (C) 2025 darkwall
-Fixes & Patches by darkwall
+Copyright (C) 2025 Ehetan
+Fixes & Patches by Ehetan
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
